@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Quên mật khẩu</title>
+        <link rel="stylesheet" href="./dangnhap/quenmk/style.css">
+        <link rel="icon" href="https://ngonaz.com/wp-content/uploads/2022/05/logo.png">  
+    </head>
+    <body background="https://phunugioi.com/wp-content/uploads/2020/02/mau-background-dep.jpg">
+            <div class="form"><br>
+                <h2>QUÊN MẬT KHẨU</h2>
+                <b>Số điện thoại</b>
+                <input class="hn-1" type="sdt" name="sdt" onkeypress="return  isNUmberkey(event)"><br>    
+                <b>Mã xác nhận</b>
+                <input class="hn-1" type="maxacnhan" name="maxacnhan" onkeypress="return isNUmberkey(event)"><br>
+                <br><br>
+                <button><a class="hn-2" href="./datlaimk.html">Tiếp</a></button>
+                <br><br>
+                <a class="hn-3" href="./dangnhap.html">Đăng nhập</a><br><br>
+                <a class="hn-3" href="./dangki.html">Đăng ký</a>
+            </div>                
+    </body>
+
+    <script>
+        function isNUmberkey(e){
+             var charcode = (e.which) ? e.which : e.keycode;
+             if( charcode > 31 && ( charcode <48 || charcode > 57)){ 
+                 alert("Không nhập được chữ")
+                 return false;
+             }
+             return true;
+         }
+     </script>
+</html>
+ 

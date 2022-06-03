@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hn-1 table{
+    width: 100%; 
+    height: 30px; 
+    font-size: 18px; 
+    font-family: Open Sans, sans-serif; 
+    background-color: rgb(233, 199, 227);
+}
+
+.hn-1-1 b{
+    text-align: center; 
+    color: blue; 
+    font-size: 30px; 
+    font-family: 'Pacifico', cursive;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    background-color: #d35f00;
+}
+
+#main-menu{
+    display: flex;
+    font-size: 15px;
+    font-family: Arvo, sans-serif;
+}
+
+nav #main-menu li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 25px 49px;
+    margin-left: 11px;
+    margin-right: 10px;
+}
+
+nav #main-menu li:hover a{
+    background: #16c216;
+    transition: all 0.3s;
+}
+
+.hienra:hover .subnav{
+    display: block;
+}
+
+.subnav{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    width: 290px;
+    z-index: 100;
+    background: #f3e1d3;
+    text-align: center;
+}
+
+#toggle{
+    display: none;
+    background-color: #353b48;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #main-menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
+    nav{
+        display: none;
+    } 
+}
+
+.float-contact {
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    z-index: 10;
+}
+.chat-zalo {
+    background: white;
+    border-radius: 16px;
+    padding: 0 16px;
+    display: block;
+    margin-bottom: 6px;
+    height: 40px;
+    width: 100px;
+}
+.chat-zalo a{
+    color: blue;
+}
+.chat-zalo:hover{
+    background-color: rgb(116, 210, 253);
+}
+.hotline {
+    background: white;
+    border-radius: 16px;
+    padding: 0 16px;
+    display: block;
+    margin-bottom: 6px;
+    height: 40px;
+    width: 150px;
+}
+.hotline a{
+    color: blue;
+}
+.hotline:hover{
+    background-color: #f78290;
+}
