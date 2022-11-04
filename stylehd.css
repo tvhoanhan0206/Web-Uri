@@ -7,6 +7,7 @@
 body {
     font-family: sans-serif;
     color: #333;
+    background: url(../images/footer.jpg);
 }
 
 /*==Style cho menu===*/
@@ -42,88 +43,25 @@ body {
 }
 
 /* Phần main */
-.main {
-    background: url(../images/main.png);
+h2 {
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
 }
 .main_1 {
-    border: 1px;
-    width: 100% auto;
-}
-
-.main_p {
-    font-weight: bold;
-    text-align: center;
-    font-style: italic;
-    font-size: 25px;
-    color: blue;
-}
-
-#devil{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #111;
-    line-height: 1.15;
-    max-width: 1170px;
-    margin: 0px auto;
-}
-ul.products{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-ul.products li{
-    flex-basis: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
-    margin-bottom: 30px;
-}
-ul.products li img{
-    max-width: 100%;
-    height: auto;
-}
-.product-info{
-    padding: 20px 0px;
-}
-ul.products li .product-top{
-    position: relative;
-    overflow: hidden;
-}
-
-ul.products li .product-top a.buy-now{
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    background-color: rgb(4, 139, 250);
-    color: #fff;
-    padding: 10px 0px;
-    position: absolute;
-    bottom: -36px;
     width: 100%;
-    transition: 0.25s ease-in-out;
-    opacity: 0.85;
-}
-ul.products li:hover a.buy-now{
-    bottom: 0px;
-}
-.product-info a{
-    display: block;
-    text-decoration: none;
-}
-ul.products li .product-info a.product-cat{
+    border: 1px solid red;
+    text-align: center;
     font-size: 15px;
-    text-transform: uppercase;
-    color: #000;
-    padding: 0px 0px;
+    background: url(../images/mainhd_1.jpg);
 }
-ul.products li .product-info .product-price{
-    color: #111;
-    padding: 2px 0px;
-    font-weight: bold;
+.main_2 {
+    width: 100%;
+    border: 1px solid violet;
+    text-align: center;
+    font-size: 15px;
+    background: url(../images/mainhd_2.jpg);
 }
-
 
 /* Phần footer */
 footer {
